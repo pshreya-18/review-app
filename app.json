@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "postdeploy": ""
+  },
+
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+
+  "image": "heroku/ruby",
+  
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-ruby.git"
+    }
+  ],
+
+  "environments": {
+    "review": {
+      }
+  }
+}
